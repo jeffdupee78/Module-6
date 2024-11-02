@@ -1,0 +1,69 @@
+/*UNIVERSAL SELECTOR */
+body {
+    
+    text-align: center;
+    margin: 1em;
+    border: thick outset skyblue;
+    
+}
+/* TYPE SELECTOR */
+
+h2 {
+    color:black; 
+}
+h1 {
+    color:black;   
+}
+h2 {
+    font-family: 'Trebuchet MS', 'Lunida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    color:black;
+}
+p {
+    color:black;
+}
+#ga { color: black;
+    text-align: left;
+}
+#ha { color: black;
+    text-align: right;
+}
+/* ID SELECTOR */
+#git_header {
+    color:black
+}
+
+/* CLASS SELECTOR */
+.top_text {
+     color:black;
+}
+
+/* Navigation Menu */
+#nav_menu {
+    padding-bottom: 2em;
+    margin: auto;
+    width: 940px;
+}
+
+#nav_menu ul { list-style-type: none;}
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;     /* padding above and below a elements */
+    text-decoration: none;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+ }
+#nav_menu ul li a:hover {
+    background-color:  lightskyblue;
+}
+#nav_menu ul li a.lastitem { border-right: none; }
+#nav_menu ul li a.firstitem { border-left: none; }
